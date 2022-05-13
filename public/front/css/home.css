@@ -1,0 +1,47 @@
+.avarta_group{
+    width: 773px;
+    margin:auto;
+    gap:41px;
+}
+.avarta{
+    width: 120px;
+    height: 120px;
+}
+.des_title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.des_head{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.description{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #000000;
+}
+.des_but{
+    width: 116px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
