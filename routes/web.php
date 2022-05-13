@@ -4,10 +4,11 @@ use App\Models\Page;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/home', function () {
+Route::get('/', function () {
     $page = Page::find(1);
     return redirect()->route('login');
 });
+
 
 Route::post('/ajax', [App\Http\Controllers\Admin\AjaxController::class, 'ajax'])->name('ajax')->middleware('isAdmin');
 
@@ -18,7 +19,7 @@ Route::get('/login', [App\Http\Controllers\LoginController::class, 'login'])->na
 Route::post('/login', [App\Http\Controllers\LoginController::class, 'loginCheck'])->name('login.check');
 Route::get('/register', [App\Http\Controllers\LoginController::class, 'registerUser'])->name('register.user');
 Route::post('/register', [App\Http\Controllers\LoginController::class, 'register'])->name('register');
-
+Route::get('/home', [App\Http\Controllers\LoginController::class, 'guest'])->name('home');
 Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function () {
 
     Route::get('/home', [App\Http\Controllers\LoginController::class, 'admin'])->name('home');

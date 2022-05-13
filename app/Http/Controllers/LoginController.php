@@ -36,7 +36,9 @@ class LoginController extends Controller
     public function admin(){
         return view('admin.home');
     }
-
+    public function guest(){
+        return view('index');
+    }
     public function RegisterUser(){
         return view('login.register');
     }
