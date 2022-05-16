@@ -70,7 +70,7 @@
                             <li><a href="{{ route('login') }}">{{ __('main.Login') }}</a></li>
                         @endif
                         <!-- <li><a href="{{ route('login') }}">{{ __('main.Login') }}</a></li> -->
-                        <li><img src="{{asset('admin')}}/img/back.png" alt=""></li>
+                        <li><img src="{{asset('admin')}}/img/back.png" alt="" data-toggle="modal" data-target="#admodal"></li>
                         <li><img src="{{asset('admin')}}/img/notification.png" alt=""></li>
                         <li><img src="{{asset('admin')}}/img/question.png" alt=""></li>
                     </ul>

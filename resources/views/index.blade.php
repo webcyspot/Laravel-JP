@@ -219,6 +219,34 @@
                 </div><!-- modal-dialog -->
             </div><!-- modal -->
            <!-- container -->
+           <div class="modal" id="admodal">
+                <div class="modal-dialog">
+                <div class="modal-content" style="width: 318px;height: 248px;">
+                
+                    <!-- Modal Header -->
+                    <div class="flex-column d-flex justify-content-center mt-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="mr-3">
+                            <img src="{{asset('admin')}}/img/Group 276.png" alt="" style="width: 41px;height: 32px;">
+
+                            </div>
+                            <div class="ml-3">
+                            <img src="{{asset('admin')}}/img/back.png" alt="" style="width: 41px;height: 32px;">
+
+                            </div>
+                        </div>
+                        <div style="">
+                            <p class="mt-3" style="text-align: center;">アイコンでDadとArtistの切り替えができます。</p>
+                        
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" style ="position: absolute;top: -13px;right: -11px;"><img src="{{asset('admin')}}/img/Group 247.png" alt=""></button>
+                    </div>
+                    
+                    
+                </div>
+                </div>
+            </div>
+           <!-- modal -->
         </div>
         
 
