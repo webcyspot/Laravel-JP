@@ -45,3 +45,267 @@
     border: 1px solid #000000;
     border-radius: 6px;
 }
+.details_top_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 240px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.details_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.details_des{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+.details_duration{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.details_option{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.details_but{
+    width: 74px;
+    height: 36px;
+    left: 1000px;
+    top: 268px;
+
+    background: #FFFFFF;
+    border: 1px solid #00E600;
+    border-radius: 6px;
+}
+.details_but_des{
+    
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #000000;
+}
+
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+        -ms-transform: translate3d(0%, 0, 0);
+         -o-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+}
+
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+    
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: 10px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.contract_status_title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.form-check-label{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    color: #000000;
+}
+.key_search_title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.key_but{
+    width: 270px;
+    height: 40px;
+    left: 960px;
+    top: 252px;
+
+    background: #FFFFFF;
+    border: 1px solid #E6E9EC;
+    border-radius: 3px;
+}
+.title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.periord_start{
+    width: 110px;
+    height: 53px;
+
+    background: #FFFFFF;
+    border: 1px solid #E6E9EC;
+    border-radius: 3px;
+}
+.periord_end{
+    width: 110px;
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #E6E9EC;
+    border-radius: 3px;
+}
+
+.search_clear{
+    width: 143px;
+    height: 56px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    
+}
+.search_submit{
+    width: 143px;
+    height: 56px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+.news_top_title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.inquery_sub{
+    width: 116px;
+    height: 39px;
+    background: #00E600;
+    border-radius: 6px;
+    border-color: currentColor;
+}
+.avarta_image_upload{
+    width: 318px;
+    height: 237px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    color: #000000;
+    margin-right: 32px;
+    align-items: center;
+}
+.work_duration_title{
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+
+    /* 808080 */
+
+    color: #808080;
+}
+.work_dark_sub{
+    width: 143px;
+    height: 56px;
+    background: #E6E6E6;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 18px;
+}
+.work_write_sub{
+    width: 143px;
+    height: 56px;
+    background: #00E600;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    text-align: center;
+    margin-right: 18px;
+}

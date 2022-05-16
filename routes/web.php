@@ -8,8 +8,6 @@ Route::get('/', function () {
     $page = Page::find(1);
     return redirect()->route('login');
 });
-
-
 Route::post('/ajax', [App\Http\Controllers\Admin\AjaxController::class, 'ajax'])->name('ajax')->middleware('isAdmin');
 
 Route::get('/lang/{lang}', [App\Http\Controllers\LangController::class, 'lang'])->name('lang');
@@ -20,6 +18,11 @@ Route::post('/login', [App\Http\Controllers\LoginController::class, 'loginCheck'
 Route::get('/register', [App\Http\Controllers\LoginController::class, 'registerUser'])->name('register.user');
 Route::post('/register', [App\Http\Controllers\LoginController::class, 'register'])->name('register');
 Route::get('/home', [App\Http\Controllers\LoginController::class, 'guest'])->name('home');
+Route::get('/detail', [App\Http\Controllers\LoginController::class, 'detail'])->name('detail');
+Route::get('/news', [App\Http\Controllers\LoginController::class, 'news'])->name('news');
+Route::get('/inquery', [App\Http\Controllers\LoginController::class, 'inquery'])->name('inquery');
+Route::get('/upload_work', [App\Http\Controllers\LoginController::class, 'upload_work'])->name('upload_work');
+
 Route::prefix('admin')->name('admin.')->middleware('isAdmin')->group(function () {
 
     Route::get('/home', [App\Http\Controllers\LoginController::class, 'admin'])->name('home');

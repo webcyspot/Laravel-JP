@@ -39,6 +39,18 @@ class LoginController extends Controller
     public function guest(){
         return view('index');
     }
+    public function detail(){
+        return view('detail');
+    }
+    public function news(){
+        return view('news');
+    }
+    public function inquery(){
+        return view('inquery');
+    }
+    public function upload_work(){
+        return view('upload_work');
+    }
     public function RegisterUser(){
         return view('login.register');
     }
